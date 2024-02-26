@@ -9,9 +9,12 @@ function isSameType(value1, value2) {
 }
 
 //do not change the code below.
-let value1 = 12
-let value2 = 12
-alert(isSameType(value1, value2));
+
+alert(isSameType(1, 3));
+alert(isSameType("hey", "hello"));
+alert(isSameType(NaN, NaN));
+alert(isSameType("3", 3));
+alert(isSameType("3", NaN));
 
 
 
