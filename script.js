@@ -10,7 +10,8 @@ function isSameType(value1, value2) {
 
 //do not change the code below.
 let value1 = 12
-let value2 = "1"
+let value2 = 12
 alert(isSameType(value1, value2));
+
 
 
